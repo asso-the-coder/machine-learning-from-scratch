@@ -58,7 +58,7 @@ def test_SciKit(X_train, X_test, Y_train, Y_test):
     return mean_squared_error(Y_test, Y_pred)
 
 def subtestFn():
-    # This function tests if your solution is robust against singular matrix
+    # This function tests if solution is robust against singular matrix
 
     # X_train has two perfectly correlated features
     X_train = np.asarray([[1, 2], [2, 4], [3, 6], [4, 8]])
